@@ -1,0 +1,11 @@
+import java.util.*;
+class P4{
+public static void main(String[] a){
+Scanner s=new Scanner(System.in);
+double cm=s.nextDouble();
+double in=cm/2.54;
+double ft=(int)(in/12);
+double ri=in%12;
+System.out.println("Your Height in cm is "+cm+" while in feet is "+ft+" and inches is "+ri);
+}
+}
