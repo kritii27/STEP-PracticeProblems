@@ -1,0 +1,10 @@
+import java.util.*;
+class P2{
+public static void main(String[] a){
+Scanner s=new Scanner(System.in);
+double f=s.nextDouble();
+double y=f/3;
+double m=y/1760;
+System.out.println("The distance in yards is "+y+" while the distance in miles is "+m);
+}
+}
